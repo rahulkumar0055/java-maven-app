@@ -23,7 +23,7 @@
         <!-- SonarQube -->
         <sonar.host.url>http://13.205.113.18:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
-        <sonar.password>sqa_d3f0205b915037c2300373f0644df435a76d34dc</sonar.password>
+        <sonar.password>Admin@123456</sonar.password>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
