@@ -22,7 +22,7 @@
 
         <!-- ✅ SonarQube (TOKEN ONLY – CORRECT WAY) -->
         <sonar.host.url>http://13.205.113.18:9000</sonar.host.url>
-        <sonar.token>sqa_d3f0205b915037c2300373f0644df435a76d34dc</sonar.token>
+
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
