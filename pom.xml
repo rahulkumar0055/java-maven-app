@@ -63,7 +63,7 @@
     <repository>
         <id>nexus</id>
         <name>Nexus Releases</name>
-        <url>http://13.205.36.84:8081/repository/java-maven-app-release/</url>
+        <url>http://52.71.173.254:8081/repository/java-maven-app-release/</url>
     </repository>
 </distributionManagement>    
 
