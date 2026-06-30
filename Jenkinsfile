@@ -1,6 +1,20 @@
 node {
+    
 
     def mvnHome = tool 'maven 3.9.16'
+
+    stage('Environment Variables') {
+
+        echo "Job Name: ${env.JOB_NAME}"
+        echo "Build Number: ${env.BUILD_NUMBER}"
+        echo "Build ID: ${env.BUILD_ID}"
+        echo "Workspace: ${env.WORKSPACE}"
+        echo "Jenkins URL: ${env.JENKINS_URL}"
+        echo "Node Name: ${env.NODE_NAME}"
+        echo "Build URL: ${env.BUILD_URL}"
+        echo "Git Branch: ${env.BRANCH_NAME}"
+
+    }
 
     stage('Checkout') {
         git branch: 'main',
