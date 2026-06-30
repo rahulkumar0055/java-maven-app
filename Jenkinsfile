@@ -6,7 +6,7 @@ node {
     stage('Environment Variables') {
 
         echo "Job Name: ${env.JOB_NAME}"
-        echo "Build Number: ${env.BUILD_NUMBER}"
+        echo "Build Number: DEV-${env.BUILD_NUMBER}"
         echo "Build ID: ${env.BUILD_ID}"
         echo "Workspace: ${env.WORKSPACE}"
         echo "Jenkins URL: ${env.JENKINS_URL}"
